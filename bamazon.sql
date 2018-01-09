@@ -26,10 +26,11 @@ VALUES ("Phone Case", "Accessories", 10, 15),
 ("Omega Seamaster", "Watches", 5000, 10), 
 ("Lenovo Laptop", "Electronics", 1000, 20); 
 
+COMMIT;
+
 
 SELECT * FROM products;
 
-SELECT item_id FROM products;
 
 
 
